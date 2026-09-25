@@ -2,7 +2,7 @@ import 'dart:io';
 
 final List<String> validMoves = ['rock', 'paper', 'scissors'];
 
-/// Asks for a player's name, using a default if none is entered.
+/// Asks for a player's name, use default if nothing is entered.
 String getPlayerName(int number) {
   stdout.write('Enter Player $number name: ');
   String? input = stdin.readLineSync()?.trim();
